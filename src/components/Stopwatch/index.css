@@ -1,0 +1,112 @@
+/* Write CSS here */
+.timeContainer {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/stopwatch-lg-bg.png');
+  min-height: 120vh;
+  background-size: cover;
+}
+.mini-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 10px;
+}
+.timeAndImage {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.timechanging {
+  font-size: 50px;
+  font-weight: 400;
+}
+
+.greenButton {
+  background-color: green;
+  cursor: pointer;
+  border: 0;
+  color: white;
+  height: 30px;
+  width: 50px;
+  border-radius: 2px;
+  margin-right: 8px;
+}
+
+.stopButton {
+  background-color: red;
+  cursor: pointer;
+  border: 0;
+  color: white;
+  height: 30px;
+  width: 50px;
+  border-radius: 2px;
+  margin-right: 8px;
+}
+
+.yellowButton {
+  background-color: yellow;
+  margin-right: 8px;
+  border: 0;
+  color: white;
+  height: 30px;
+  width: 50px;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.inner-inner-container {
+  display: flex;
+  width: 40%;
+  flex-direction: column;
+  justify-content: center;
+  margin: 7%;
+}
+
+.heading {
+  font-size: 30px;
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .timeContainer {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/stopwatch-sm-bg.png');
+    min-height: 120vh;
+    background-size: cover;
+  }
+  .greenButton {
+    background-color: green;
+    cursor: pointer;
+    border: 0;
+    color: white;
+    height: 20px;
+    width: 40px;
+    border-radius: 2px;
+    margin-right: 4px;
+  }
+
+  .stopButton {
+    background-color: red;
+    cursor: pointer;
+    border: 0;
+    color: white;
+    height: 20px;
+    width: 40px;
+    border-radius: 2px;
+    margin-right: 4px;
+  }
+
+  .yellowButton {
+    background-color: yellow;
+    margin-right: 4px;
+    border: 0;
+    color: white;
+    height: 20px;
+    width: 40px;
+    border-radius: 2px;
+    cursor: pointer;
+  }
+}
